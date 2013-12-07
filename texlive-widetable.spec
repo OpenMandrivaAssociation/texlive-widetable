@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-widetable
 Version:	1.1
-Release:	5
+Release:	6
 Summary:	An environment for typesetting tables of specified width
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/widetable
