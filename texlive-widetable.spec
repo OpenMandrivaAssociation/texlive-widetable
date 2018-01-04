@@ -1,12 +1,6 @@
-# revision 16082
-# category Package
-# catalog-ctan /macros/latex/contrib/widetable
-# catalog-date 2009-11-10 09:00:49 +0100
-# catalog-license lppl1.3
-# catalog-version 1.1
 Name:		texlive-widetable
-Version:	1.1
-Release:	10
+Version:	1.4
+Release:	1
 Summary:	An environment for typesetting tables of specified width
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/widetable
@@ -37,13 +31,10 @@ modern distributions).
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/widetable/widetable.sty
-%doc %{_texmfdistdir}/doc/latex/widetable/README
-%doc %{_texmfdistdir}/doc/latex/widetable/manifest.txt
-%doc %{_texmfdistdir}/doc/latex/widetable/widetable.pdf
+%{_texmfdistdir}/tex/latex/widetable
+%doc %{_texmfdistdir}/doc/latex/widetable
 #- source
-%doc %{_texmfdistdir}/source/latex/widetable/widetable.dtx
-%doc %{_texmfdistdir}/source/latex/widetable/widetable.ins
+%doc %{_texmfdistdir}/source/latex/widetable
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,16 +45,3 @@ modern distributions).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-2
-+ Revision: 757537
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
-+ Revision: 719908
-- texlive-widetable
-- texlive-widetable
-- texlive-widetable
-
