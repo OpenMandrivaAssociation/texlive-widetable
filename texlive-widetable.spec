@@ -3,7 +3,7 @@ Version:	53409
 Release:	2
 Summary:	An environment for typesetting tables of specified width
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/widetable
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/widetable
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/widetable.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/widetable.doc.r%{version}.tar.xz
